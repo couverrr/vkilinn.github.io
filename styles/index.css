@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  box-shadow: 0px 0px 1px 1px rgb(228, 227, 227);
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+}
+
+.header p {
+  color: black;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 16px;
+  transition: color 0.15s;
+}
+
+.header p:hover {
+  color: lightpink;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.body {
+  text-align: center;
+  background-color: white;
+}
+
+.page {
+  background-color: white;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.body img {
+  max-height: 200px;
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
